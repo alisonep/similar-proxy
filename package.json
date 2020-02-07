@@ -1,0 +1,19 @@
+{
+  "name": "similar-proxy",
+  "version": "1.0.0",
+  "description": "proxy for similar service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisonep/similar-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisonep/similar-proxy/issues"
+  },
+  "homepage": "https://github.com/alisonep/similar-proxy#readme"
+}
