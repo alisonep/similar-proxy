@@ -4,6 +4,7 @@
   "description": "proxy for similar service",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/alisonep/similar-proxy/issues"
   },
-  "homepage": "https://github.com/alisonep/similar-proxy#readme"
+  "homepage": "https://github.com/alisonep/similar-proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
 }
