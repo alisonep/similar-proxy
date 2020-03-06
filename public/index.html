@@ -6,18 +6,34 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300&display=swap" rel="stylesheet">
     <style>
       body {
+        background-color: #efeef1;
+        margin: 0; 
+      }
+
+      #main-page-container {
         max-width: 1220px;
         padding: 0 15px;
         margin: 0 auto;
-        background-color: #efeef1;
+      }
+
+      #main-page-top-bar {
+        clear:both;
+        overflow:hidden;
+        width: 100%;
+        height: 90px;
+        object-fit: cover;
       }
       </style>
     </style>
   </head>
   <body>
-    <div id="infoContainer"></div>
-    <div id="availability"></div>
-    <div id="similarContainer"></div>
+    <img id="main-page-top-bar" src="https://sagittarius-similar.s3-us-west-1.amazonaws.com/topbar.JPG"></img>
+    <div id="main-page-container">
+      <div id="infoContainer"></div>
+      <div id="availability"></div>
+      <div id="similarContainer"></div>
+    </div>
+
     <!-- <script src="http://localhost:3002/dist/main.js"></script> -->
     <!-- <script src="http://localhost:3003/bundle.js"></script> -->
     <!-- <script src="http://ec2-54-90-115-26.compute-1.amazonaws.com:3003/bundle.js"></script> -->
